@@ -14,4 +14,8 @@ There is a system that collects news artifacts from web pages, tweets, facebook 
 The objectif of this work is to explore how useful existing LLMs like GPT-3 are for this task.
 
 ## Data
-The data we shall use is [here](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_test.txt).
+The data we shall use is:
+ - Dataset 1: [For development and training](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_dev.txt).
+ - Dataset 2: [For testing and final reporting](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_test.txt)
+
+
