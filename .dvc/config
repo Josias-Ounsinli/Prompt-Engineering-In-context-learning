@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-remote
+['remote "dvc-remote"']
+    url = /home/jds98/10 Academy/Week-4/dvc-storage
