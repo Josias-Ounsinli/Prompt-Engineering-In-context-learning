@@ -14,6 +14,25 @@ There is a system that collects news artifacts from web pages, tweets, facebook 
 The objectif of this work is to explore how useful existing LLMs like GPT-3 are for this task.
 
 ## Data
+There are two datasets you will use for this project
+
+### Data 1:
+
+This data comes from the system described above. The columns of this data are as follows:
+
+Domain - the base URL or a reference to the source these item comes from 
+Title - title of the item - the content of the item
+Description - the content of the item
+Body - the content of the item
+Link - URL to the item source (it may not functional anymore sometime)
+Timestamp - timestamp that this item was collected at
+Analyst_Average_Score -  target variable - the score to be estimated 
+Analyst_Rank - score as rank
+Reference_Final_Score - Not relevant for now - it is a transformed quantity
+
+
+### Data 2:
+The data are job descriptions (together named entities)  and  relationships between entities in json format.
 The data we shall use is:
  - Dataset 1: [For development and training](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_dev.txt).
  - Dataset 2: [For testing and final reporting](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_test.txt)
