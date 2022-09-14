@@ -14,7 +14,7 @@ There is a system that collects news artifacts from web pages, tweets, facebook 
 The objectif of this work is to explore how useful existing LLMs like GPT-3 are for this task.
 
 ## Data
-There are two datasets you will use for this project
+There are two datasets to be used for this project
 
 ### Data 1:
 
