@@ -1,2 +1,4 @@
 env/
 scripts/apis.py
+/relations_dev.txt
+/relations_test.txt
