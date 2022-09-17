@@ -1,0 +1,126 @@
+Predicition number 1
+Prediction:  Ph.D. 
+DIPLOMA_MAJOR: Machine Learning, AI, Computer Science, Statistics, Applied Mathematics, Data Science 
+EXPERIENCE: 1+ year(s) 
+SKILLS:
+
+This should be the true output:
+DIPLOMA: Ph.D. 
+DIPLOMA_MAJOR: machine learning, AI, computer science, statistics, applied mathematics, data science 
+EXPERIENCE: 1+ year(s 
+SKILLS: university, industry, government lab(s), AI 
+
+-----------------------------------------------
+Predicition number 2
+Prediction:  BS/BA 
+DIPLOMA_MAJOR: Economics, Statistics, Political Science, History, Psychology 
+EXPERIENCE: 2+ years 
+SKILLS: online advertising, research, statistical software, H
+
+This should be the true output:
+EXPERIENCE: 2+ years 
+SKILLS: online advertising, research 
+DIPLOMA: BS/BA, Masters 
+DIPLOMA_MAJOR: Economics, Statistics, Political Science, History, Psychology, quantitative field 
+
+-----------------------------------------------
+Predicition number 3
+Prediction:  BA/BS 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 2+ years, 5+ years, 2+ years 
+SKILLS: program, project management, technical project/program
+
+This should be the true output:
+EXPERIENCE: 5+ years, 2+ years 
+SKILLS: project management, technical project, program management 
+
+-----------------------------------------------
+Predicition number 4
+Prediction:  BS/MS 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: Currently enrolled, PhD 
+SKILLS: machine learning, AI, computer vision, natural language processing, computational neuroscience, optimization
+
+This should be the true output:
+DIPLOMA: Ph.D. 
+DIPLOMA_MAJOR: Computer Science 
+
+-----------------------------------------------
+Predicition number 5
+Prediction:  Currently enrolled 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: research, solving analytical problems 
+SKILLS: manipulating, analyzing, high-dimensionality data, large scale, work authorization 
+
+This should be the true output:
+DIPLOMA: Ph.D. 
+DIPLOMA_MAJOR: Computer Science 
+
+-----------------------------------------------
+Predicition number 6
+Prediction:  MS 
+DIPLOMA_MAJOR: Operations Research, Computer Science, Quantitative Finance, Math, Physics or a related Engineering degree 
+EXPERIENCE: 7+ years 
+SKILLS: machine learning,
+
+This should be the true output:
+DIPLOMA: MS, PhD 
+DIPLOMA_MAJOR: Operations Research, Computer Science, Quantitative Finance, Math, Physics, Engineering, Operation Research, Industrial Engineering 
+EXPERIENCE: 7+ years, 5+ years, 7+ years, 7+ years 
+SKILLS: building models, developing algorithms, machine learning, statistics, mathematical programming, simulation, industry, academia, managing, analyzing large-scale structured and unstructured data, R, Python, algorithms, optimizations, CPLEX, SQL, data modeling 
+
+-----------------------------------------------
+Predicition number 7
+Prediction:  PhD, MS, BS 
+DIPLOMA_MAJOR: Physics, Electrical Engineering, Computer Science 
+EXPERIENCE: 5+ years, 7+ years, 10+ years 
+SKILLS: architecting
+
+This should be the true output:
+
+-----------------------------------------------
+Predicition number 8
+Prediction:  Ph.D. in Computer Science or related field 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: First-author publications at peer-reviewed AI conferences, 1 year 
+SKILLS:
+
+This should be the true output:
+DIPLOMA: Ph.D. 
+DIPLOMA_MAJOR: Computer Science 
+
+-----------------------------------------------
+Predicition number 9
+Prediction:  Ph.D 
+DIPLOMA_MAJOR: human-computer interaction, human factors, cognitive psychology or related field 
+EXPERIENCE: 12+ years, Ph.D 
+SKILLS: experience,
+
+This should be the true output:
+EXPERIENCE: 12+ years 
+SKILLS: research, Ph.D 
+DIPLOMA_MAJOR: human-computer interaction, human factors, cognitive psychology 
+
+-----------------------------------------------
+Predicition number 10
+Prediction:  PhD, MS 
+DIPLOMA_MAJOR: Industrial/Organizational Psychology, Organizational Behavior, Labor Economics, Management, Policy Analysis 
+EXPERIENCE: 3+ years, 5+ years, 3+ years
+
+This should be the true output:
+EXPERIENCE: 5+ years, 3+ years, 3+ years, 5+ years 
+SKILLS: emphasizing people research in organizations, Industrial, Organizational Psychology, Organizational Behavior, Labor Economics, Management, Policy Analysis, conducting quantitative people research, working with stakeholders, communicating, statistical methods, progressive consulting, corporate work experience, using data to uncover insights that drive action, communicating 
+
+-----------------------------------------------
+Predicition number 11
+Prediction:  PhD, publication(s) 
+DIPLOMA_MAJOR: Machine Learning, AI, Computer Science, Statistics, Applied Mathematics, Data Science, or related technical fields 
+EXPERIENCE: 1+ year(s
+
+This should be the true output:
+DIPLOMA: Ph.D. 
+DIPLOMA_MAJOR: machine learning, AI, computer science, statistics, applied mathematics, data science 
+EXPERIENCE: 1+ year(s) 
+SKILLS: industry 
+
+-----------------------------------------------
