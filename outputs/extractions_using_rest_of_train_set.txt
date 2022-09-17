@@ -1,0 +1,167 @@
+Predicition number 1
+Prediction:  3+ years 
+DIPLOMA_MAJOR: Objective-C, Swift 
+EXPERIENCE: 3+ years 
+SKILLS: UI/design, UI/UX, UI/design, iOS
+
+This should be the true output:
+EXPERIENCE: 3+ years 
+SKILLS: Swift & Objective-C 
+
+-----------------------------------------------
+Predicition number 2
+Prediction:  BA/BS degree 
+DIPLOMA_MAJOR: CS 
+EXPERIENCE: 8+ years, 5+ years, 5+ years, 5+ years, 5+ years, 5+ years, 5+
+
+This should be the true output:
+EXPERIENCE: 8+ years, 5+ years 
+SKILLS: software engineering, people management, managing leaders 
+
+-----------------------------------------------
+Predicition number 3
+Prediction:  BS degree 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 7+ years, 5+ years, 2+ years, 7+ years 
+SKILLS: C++, C++11
+
+This should be the true output:
+DIPLOMA: BS 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 7+ years, 5+ years, 2+ years 
+SKILLS: C++, C++11, creating software for real-time environments, games, robotics, managing software engineers 
+
+-----------------------------------------------
+Predicition number 4
+Prediction:  8+ years 
+DIPLOMA_MAJOR: Python, Go, C++ 
+EXPERIENCE: 8+ years, 4 or more years, proven track record of performing, demonstrated CS fundamentals, proven track record
+
+This should be the true output:
+EXPERIENCE: 8+ years 
+SKILLS: development, Python, C++ 
+
+-----------------------------------------------
+Predicition number 5
+Prediction:  BS/MS 
+DIPLOMA_MAJOR: EE/CS 
+EXPERIENCE: 5 Years 
+SKILLS: problem solving, Linux, packaged software, middleware, Cloud, virtualization, hyper
+
+This should be the true output:
+EXPERIENCE: 2+ years 
+SKILLS: performance modeling, IT infrastructure, access concurrency 
+DIPLOMA: BS / MS 
+DIPLOMA_MAJOR: EE, CS 
+
+-----------------------------------------------
+Predicition number 6
+Prediction:  5 + years 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 5 + years, 5+ years, 3+ years, 2+ years 
+SKILLS: full-stack software development
+
+This should be the true output:
+EXPERIENCE: 5 + years, 5+ years, 5 + years, 3+ years, 1+ years, 2+ years 
+SKILLS: full-stack software development, C#, delivering scalable and resilient services, data platforms, large-scale analytics, SWE lead, DevOps, designing 
+
+-----------------------------------------------
+Predicition number 7
+Prediction:  BS in Electrical Engineering or Computer Engineering, or related Engineering Degree 
+DIPLOMA_MAJOR: Electrical Engineering, Computer Engineering 
+EXPERIENCE: 3+ years, 5+ years 
+SKILLS: PCB
+
+This should be the true output:
+DIPLOMA: BS, MS 
+DIPLOMA_MAJOR: Electrical Engineering, Computer Engineering, Engineering, electrical engineering, computer engineering 
+EXPERIENCE: 3+ years, 3+ years, 5+ years 
+SKILLS: industry, PCB design, integrated, discrete circuits, industry experience 
+
+-----------------------------------------------
+Predicition number 8
+Prediction:  BS in Computer Science, Computer Engineering, or a related field 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: Involvement in designing, implementing and shipping complex enterprise software products/services,
+
+This should be the true output:
+DIPLOMA: BS 
+DIPLOMA_MAJOR: Computer Science, Computer Engineering 
+
+-----------------------------------------------
+Predicition number 9
+Prediction:  Bachelor's Degree 
+DIPLOMA_MAJOR: Computing Science 
+EXPERIENCE: N/A 
+SKILLS: Java, Unix, English 
+----
+
+This should be the true output:
+DIPLOMA: Bachelor 
+DIPLOMA_MAJOR: Computing Science 
+
+-----------------------------------------------
+Predicition number 10
+Prediction:  none 
+DIPLOMA_MAJOR: none 
+EXPERIENCE: 1+ years 
+SKILLS: java, application performance, cloud operations, automation 
+----
+
+This should be the true output:
+EXPERIENCE: 1+ years 
+SKILLS: development, Java stack, AppConnect, API 
+
+-----------------------------------------------
+Predicition number 11
+Prediction:  BA/BS degree 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 5+ years 
+SKILLS: coding, C++, Java, PHP 
+----
+
+This should be the true output:
+EXPERIENCE: 5+ years, 5+ years, 4+ years 
+DIPLOMA_MAJOR: software engineering, Computer Science 
+SKILLS: technical management, coding, C++, Java, PHP, relevant work experience) 
+DIPLOMA: BA/BS 
+
+-----------------------------------------------
+Predicition number 12
+Prediction:  BS/MS 
+DIPLOMA_MAJOR: Computer Science 
+EXPERIENCE: 8+ years, 3+ years 
+SKILLS: technical, hands-on, people manager, technical teams, infrastructure
+
+This should be the true output:
+EXPERIENCE: 8+ years, 3+ years 
+SKILLS: software engineering, technical management, software engineers 
+DIPLOMA: BS/MS 
+DIPLOMA_MAJOR: Computer Science 
+
+-----------------------------------------------
+Predicition number 13
+Prediction:  Bachelor 
+DIPLOMA_MAJOR: Mechanical Engineering 
+EXPERIENCE: 5+ years 
+SKILLS: mechanical engineering, system, verification, statistical analysis, board, documentation, communication 
+----
+
+This should be the true output:
+DIPLOMA: Bachelor 
+DIPLOMA_MAJOR: Mechanical Engineering, HW engineering 
+EXPERIENCE: 5 years 
+
+-----------------------------------------------
+Predicition number 14
+Prediction:  BA/BS degree 
+DIPLOMA_MAJOR: none 
+EXPERIENCE: 7+ years 
+SKILLS: experience in brand and/or product marketing in the consumer technology sector 
+----
+
+This should be the true output:
+EXPERIENCE: 7+ years 
+SKILLS: brand, product marketing 
+
+-----------------------------------------------
