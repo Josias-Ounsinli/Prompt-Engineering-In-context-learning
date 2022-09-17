@@ -1,0 +1,346 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.43.12:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (inotify)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.43.12:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.43.12:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:38:00] "POST /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:38:12] "GET /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:40:36] "GET /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:54:54] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:55:31] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.43.12:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:55:50] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:55:55] "GET /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:56:54] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:57:38] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:58:44] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 12:59:38] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:00:40] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:01:18] "GET /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:02:57] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:03:05] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:10:19] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:12:28] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:13:31] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:14:01] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:14:06] "[31m[1mPOST /bnewscore HTTP/1.1[0m" 400 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:14:43] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:15:10] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:16:28] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cohere.ai:443
+DEBUG:urllib3.connectionpool:https://api.cohere.ai:443 "POST /generate HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:21:39] "POST /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cohere.ai:443
+DEBUG:urllib3.connectionpool:https://api.cohere.ai:443 "POST /generate HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:27:57] "POST /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:28:09] "GET /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:28:11] "GET /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.cohere.ai:443
+DEBUG:urllib3.connectionpool:https://api.cohere.ai:443 "POST /generate HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:30:55] "POST /bnewscore HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 13:31:12] "GET /bnewscore HTTP/1.1" 200 -
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
