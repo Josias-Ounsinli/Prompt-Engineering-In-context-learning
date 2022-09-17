@@ -1,0 +1,6 @@
+{
+"Domain": "twitter.com",
+    "Title": "Stumbled across an interesting case, a woman facing eviction from the home that she inherited from her brother in 2007. Turns out her brother was in business with a notorious international criminal Paul Le Roux, who is currently serving 25 years in a New York prison.",
+    "Body": "Stumbled across an interesting case, a woman facing eviction from the home that she inherited from her brother in 2007. Turns out her brother was in business with a notorious international criminal Paul Le Roux, who is currently serving 25 years in a New York prison.",
+    "Description": "Stumbled across an interesting case, a woman facing eviction from the home that she inherited from her brother in 2007. Turns out her brother was in business with a notorious international criminal Paul Le Roux, who is currently serving 25 years in a New York prison."
+}

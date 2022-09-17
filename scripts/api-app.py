@@ -53,15 +53,7 @@ def index():
                 "message": "Welcome to this app of job description entity extraction (/jdentities ) and scoring breaking news (/bnewscore )!"
              })
 
-### First and point: /jdentities
-
-# This is a simple placeholder for eccomerce, to make it dynamic we need to use a dictionary for different types of items and use the examples based on the item type
-descs = [
-    'Company: Casper\nProduct Name: The Wave Hybrid\nWhat is it: A mattress to improve sleep quality\nWhy is it unique: It helps with back problems\nDescription: We\'ve got your back. Literally, improving the quality of your sleep is our number one priority. We recommend checking out our Wave Hybrid mattress as it is designed specifically to provide support and pain relief.\n--SEPARATOR--\n',
-    'Company: Glossier\nProduct Name: The Beauty Bag\nWhat is it: A makeup bag\nWhy is it unique: It can hold all your essentials but also fit into your purse\nDescription: Give a very warm welcome to the newest member of the Glossier family - the Beauty Bag!! It\'s the ultimate home for your routine, with serious attention to detail. See the whole shebang on Glossier.\n--SEPARATOR--\n',
-    'Company: Alen\nProduct Name: Air Purifier\nWhat is it: A purifier for the air\nWhy is it unique: It\'s designed to remove allergens from the air\nDescription: The Alen BreatheSmart Classic Air Purifier is a powerful, energy-efficient air purifier that removes 99.97% of airborne particles, including dust, pollen, pet dander, mold spores, and smoke. It is designed to be used in rooms up to 1,000 square feet.\n--SEPARATOR--\n'
-]
-
+### First endpoint: /endpoint
 
 @app.route('/jdentities', methods=['GET', 'POST'])
 def jdentities_route():
@@ -71,6 +63,8 @@ def jdentities_route():
     elif request.method == 'POST':        
         return jsonify({"status": "sucess", "message": "Post Route for items!"})
 
+
+### Second endpoint: /bnewscore
 
 @app.route('/bnewscore', methods=['GET', 'POST'])
 def bnewscore_route():

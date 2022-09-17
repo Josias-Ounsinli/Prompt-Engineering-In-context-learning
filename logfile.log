@@ -344,3 +344,31 @@ DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home
 INFO:werkzeug: * Restarting with watchdog (inotify)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_MODIFY, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=api-app.py>
+INFO:werkzeug: * Detected change in '/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts/api-app.py', reloading
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/10 Academy/Week-4/Prompt-Engineering-In-context-learning/scripts', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/home/jds98/.local/lib/python3.10/site-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/lib/python3.10', wd=1, mask=IN_IGNORED, cookie=0, name=>
+DEBUG:watchdog.observers.inotify_buffer:in-event <InotifyEvent: src_path=b'/usr/local/lib/python3.10/dist-packages', wd=1, mask=IN_IGNORED, cookie=0, name=>
+INFO:werkzeug: * Restarting with watchdog (inotify)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 703-598-458
