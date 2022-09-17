@@ -1,6 +1,7 @@
+from ntpath import join
 import sys
 import os
-import pandas as pd
+import token
 import cohere
 from flask import Flask, request, jsonify, render_template
 
@@ -16,6 +17,33 @@ co = cohere.Client(apikey)
 app = Flask(__name__)
 
 # job descriptions data
+import pandas as pd
+extract_train = pd.read_json('relations_dev.txt')
+# extract_test = pd.read_json('relations_test.txt')
+
+tokens_processed = []
+for tokl in extract_train['tokens']:
+    new = {}
+    for d in tokl:
+        try:
+            new[d['entityLabel']] = new[d['entityLabel']] + ', ' + d['text']
+        except KeyError:
+            new[d['entityLabel']] = f"{d['text']}"
+    
+    tokens_processed.append(new)
+
+
+extract_train['tokens_processed'] = tokens_processed
+
+job_desc_list = []
+for i in range(len(extract_train)):
+    jb_items = {}
+    jb_items['Documents'] = extract_train.iloc[i][0]
+    for j in range(len(tokens_processed[i])):
+        jb_items[list(tokens_processed[i].keys())[j]] = tokens_processed[i][list(tokens_processed[i].keys())[j]]
+    job_desc_list.append(jb_items)
+
+entities_pred = []
 
 # Breaking news data
 import load_data
@@ -59,9 +87,36 @@ def index():
 def jdentities_route():
     """job description entities route."""
     if request.method == 'GET':
-        return jsonify({"status": "success", "message": "Get item!"})
-    elif request.method == 'POST':        
-        return jsonify({"status": "sucess", "message": "Post Route for items!"})
+        return jsonify({"status": "success", "message": "Get item!", "Job description list": job_desc_list, "job description predicted": entities_pred})
+    elif request.method == 'POST':     
+        Document = request.get_json()['Documents']
+
+        # construct prompt to predice
+        toPredict = f"Documents: {Document}\nDIPLOMA:"
+        prompt = ""
+        for i in [0, 1, 4, 6]:
+            prompt += f"Documents: {job_desc_list[i]['Documents']}\nDIPLOMA: {job_desc_list[i]['DIPLOMA']}\nDIPLOMA_MAJOR: {job_desc_list[i]['DIPLOMA_MAJOR']}\nEXPERIENCE: {job_desc_list[i]['EXPERIENCE']}\nSKILLS: {job_desc_list[i]['SKILLS']}\n----\n"
+        prompt += toPredict
+
+        response = co.generate(
+        model='xlarge',
+        prompt= prompt,
+        max_tokens=50,
+        temperature=0.9,
+        k=0,
+        p=0.75,
+        frequency_penalty=0,
+        presence_penalty=0,
+        stop_sequences=["----"],
+        return_likelihoods='NONE')
+        entity_predictions = response.generations[0].text
+        if '----' in entity_predictions:
+            entity_predictions = entity_predictions.replace('----', '')
+
+        entities_pred.append({"Documents": request.get_json()['Documents'],
+        "Entities predictions": entity_predictions})
+
+        return jsonify({"status": "sucess", "message": "Post Route for items!", "Prompt": prompt, "Prediction": entity_predictions})
 
 
 ### Second endpoint: /bnewscore
